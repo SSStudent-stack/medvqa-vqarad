@@ -1,0 +1,11 @@
+torch>=2.1
+torchvision>=0.16
+transformers>=4.41
+pillow>=10.0
+tqdm>=4.66
+numpy>=1.24
+pandas>=2.0
+nltk>=3.8
+
+# Optional (for parameter-efficient finetune):
+# peft>=0.12
