@@ -1,9 +1,30 @@
-__pycache__/
-*.pyc
+# ===== Python =====
 .venv/
 venv/
-data/raw/images/
-data/raw/*.zip
-runs/
-checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== OS / IDE =====
 .DS_Store
+.idea/
+.vscode/
+*.iml
+
+# ===== Project outputs / large artifacts =====
+data/
+checkpoints/
+runs/
+
+# ===== Model / dataset archives =====
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# ===== Logs =====
+*.log
