@@ -28,3 +28,4 @@ runs/
 
 # ===== Logs =====
 *.log
+.idea/
