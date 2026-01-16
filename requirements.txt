@@ -1,11 +1,16 @@
+# Core utilities
+tqdm>=4.66
+Pillow>=10.0
+
+# Baseline (PyTorch + torchvision)
 torch>=2.1
 torchvision>=0.16
-transformers>=4.41
-pillow>=10.0
-tqdm>=4.66
-numpy>=1.24
-pandas>=2.0
+
+# BLIP (Transformers)
+transformers>=4.35
+
+# Metrics (BLEU in metrics.py)
 nltk>=3.8
 
-# Optional (for parameter-efficient finetune):
-# peft>=0.12
+# Optional: suppress LibreSSL warning on some macOS Python builds
+urllib3<2
